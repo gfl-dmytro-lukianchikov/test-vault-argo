@@ -4,4 +4,4 @@ metadata:
   name: test-secret
 type: Opaque
 data:
-  password: <secret/data/test#gg2 | base64encode>
+  password: <path:secret/data/test#gg2 | base64encode>
