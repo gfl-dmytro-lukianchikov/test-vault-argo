@@ -2,8 +2,6 @@ kind: Secret
 apiVersion: v1
 metadata:
   name: test-secret
-  annotations:
-    avp.kubernetes.io/path: "secret/data/test"
 type: Opaque
 data:
-  password: <gg>
+  password: <secret/data/test#gg2 | base64encode>
