@@ -6,4 +6,4 @@ metadata:
     avp.kubernetes.io/path: "secret/test"
 type: Opaque
 data:
-  password: <gg>
+  password: <gg | base64encode>
